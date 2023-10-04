@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">GitHub Users</string>
+    <string name="username">Username</string>
+    <string name="status">Status</string>
+    <string name="name">Nama</string>
+    <string name="more">Selengkapnya</string>
+    <string name="showNama">Nama</string>
+    <string name="showUsername">Username</string>
+    <string name="showFollowing">100</string>
+    <string name="showFollowers">200</string>
+    <string name="showRepository">300</string>
+    <string name="textFollowing">Following</string>
+    <string name="textFollowers">Followers</string>
+    <string name="textRepository">Repository</string>
+    <string name="textCompany">Company</string>
+    <string name="textLocation">Location</string>
+    <string name="show_users_company">Show Users Company</string>
+    <string name="show_users_location">Show Users Location</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Marksman kata</string>
+    <string name="tab_1">Following</string>
+    <string name="tab_2">Followers</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+    <string name="favorite_button">Favorite</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="github_app">Github_App</string>
+    <string name="wiralodrasaputra07_gmail_com">wiralodrasaputra07@gmail.com</string>
+    <string name="wira_sukma_saputra">Wira Sukma Saputra</string>
+    <string name="foto_profil">Foto Profil</string>
+    <string name="kembali">Kembali</string>
+    <string name="Deskripsi_profil">perkenalkan saya adalah seorang mahasiswa yang sedang menempuh pendidikan Teknik Informatika tingkat S1 di salah satu kampus di daerah saya dan saya sedang belajar untuk menjadi seorang frontend developer</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="user_not_found">user</string>
+</resources>
+
+

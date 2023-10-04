@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".detail.ProfileActivity">
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/about_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+
+      <de.hdodenhof.circleimageview.CircleImageView
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+          android:layout_gravity="center_horizontal"
+          android:src="@drawable/myself"
+          android:scaleType="centerCrop"
+          android:layout_marginTop="16dp"
+          android:layout_marginBottom="16dp"
+          android:contentDescription="@string/foto_profil" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/wira_sukma_saputra"
+          android:textSize="24sp"
+          android:textStyle="bold"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="16dp" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/wiralodrasaputra07_gmail_com"
+          android:textSize="16sp"
+          android:textColor="@color/purple_500"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="8dp" />
+
+
+
+      <TextView
+          android:id="@+id/deskripsi"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="40dp"
+          android:text="@string/deskripsi"
+          android:textSize="24sp"
+          android:textStyle="bold" />
+
+
+      <TextView
+          android:id="@+id/profileBioTextView"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/Deskripsi_profil"
+          android:textSize="16sp" />
+
+      <Button
+          android:id="@+id/shareButton"
+          android:layout_marginTop="30dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/share" />
+
+
+    </LinearLayout>
+
+  </ScrollView>
+
+
+</RelativeLayout>
